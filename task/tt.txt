@@ -1,0 +1,5 @@
+product_id,prod_name,prod_quantity,prod_descrip,catagory -> product -crud ------------------````done`````
+order_id,prod_id,address,emp_id,require_date,ship_date,ord_Status ->order -crud
+order_id,pro_id,price,quant,dis ->ord detail
+store_id,address,prod_id,quant ->store
+emp_id,dep_id,prod_id,quant,order_id,store_id,add ->supply
